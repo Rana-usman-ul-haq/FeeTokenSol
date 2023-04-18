@@ -703,7 +703,7 @@ contract MyToken is Context, IERC20, Ownable {
     IUniswapV2Router02 public  uniswapV2Router;
     address public  uniswapV2Pair;
 
-    uint256 public numTokensSellToAddToLiquidity = 5000 * 10**18;
+    uint256 public numTokensSellToAddToLiquidity = 100000 * 10**18;
     uint256 public _maxTxAmount = 1000000000 * 10**18;
     
     event MinTokensBeforeSwapUpdated(uint256 minTokensBeforeSwap);
