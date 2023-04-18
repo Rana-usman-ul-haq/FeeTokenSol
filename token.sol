@@ -689,10 +689,10 @@ contract MyToken is Context, IERC20, Ownable {
     uint256 public _taxFee = 0;
     uint256 private _previousTaxFee = _taxFee;
     
-    uint256 public _liquidityFee = 0;
+    uint256 public _liquidityFee = 1;
     uint256 private _previousLiquidityFee = _liquidityFee;
 
-    uint256 public _burnFee = 1;
+    uint256 public _burnFee = 0;
     uint256 private _previousBurnFee = _burnFee;
     address public deadAddress = 0x000000000000000000000000000000000000dEaD;
 
